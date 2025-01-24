@@ -1,6 +1,6 @@
 namespace HomeEnergyApi.Models
 {
-    public class HomeRepository: IReadRepository<int, Home>, IWriteRepository<int, Home>
+    public class HomeRepository : IRepository<int, Home>
     {
         public List<Home> HomesList;
 
@@ -36,11 +36,6 @@ namespace HomeEnergyApi.Models
             var home = HomesList[id];
             HomesList.Remove(home);
             return home;
-        }
-
-        public int Count()
-        {
-            return HomesList.Count();
         }
     }
 }
