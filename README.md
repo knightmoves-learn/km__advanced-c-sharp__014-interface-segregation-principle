@@ -19,7 +19,7 @@ In `HomeEnergyApi/Models/IWriteRepository.cs`
     - Create a method `int Count()`
 
 In `HomeEnergyApi/Models/HomeRepository.cs`
-    - Have `HomeRepository` implement the interfaces `IReadRepository<int, Home>` and `IWriteRepository<int, Home>`
+- Have `HomeRepository` implement the interfaces `IReadRepository<int, Home>` and `IWriteRepository<int, Home>`
     - Create a method `Count()`
         - Should return the current count of `HomesList`
 
