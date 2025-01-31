@@ -31,7 +31,7 @@ In `HomeEnergyApi/Controllers/HomesAdminController.cs`
         - `Route("admin/Homes")`
     - Create a private property `repository` of type `IWriteRepository<int, Home>`
     - Create a constructor taking one parameter of type `IWriteRepository<int, Home>`
-        - Set the `repository` property ot the value of the passed parameter
+        - Set the `repository` property to the value of the passed parameter
     - Create a public `CreateHome()` method containing the same logic currently existing in HomeController.cs for the method with that name
         - You may need to modify the first argument to `Created()` to return the correct location in the HTTP Response headers (ex. a new Home with an id of 1, should return `/Homes/1` as it's location)
     - Create a public `UpdateHome()` method containing the same logic currently existing in HomeController.cs for the method with that name    
