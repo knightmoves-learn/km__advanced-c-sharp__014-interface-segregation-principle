@@ -51,6 +51,9 @@ In `HomeEnergyApi/Program.cs`
     - `builder.Services.AddSingleton<IReadRepository<int, Home>>(provider => provider.GetRequiredService<HomeRepository>());`
     - `builder.Services.AddSingleton<IWriteRepository<int, Home>>(provider => provider.GetRequiredService<HomeRepository>());`
 
+## Additonal Information
+- So far in this course, `using` statements in `HomeEnergyApi` have been pre-provided for you, remember in the future you may need to add these yourself depending on the dependencies your projects have.
+
 ## Building toward CSTA Standards:
 
 - Decompose problems into smaller components through systematic analysis, using constructs such as procedures, modules, and/or objects. (3A-AP-17) https://www.csteachers.org/page/standards
