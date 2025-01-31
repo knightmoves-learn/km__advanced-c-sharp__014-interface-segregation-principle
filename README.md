@@ -2,7 +2,7 @@
 
 ## Lecture
 
-[![# Interface Segregation Principle](https://img.youtube.com/vi/qgAZvRFZDIw/0.jpg)](https://www.youtube.com/watch?v=qgAZvRFZDIw)
+[![# Interface Segregation Principle](https://img.youtube.com/vi/gyp8UJp-VCA/0.jpg)](https://www.youtube.com/watch?v=gyp8UJp-VCA)
 
 ## Instructions
 
