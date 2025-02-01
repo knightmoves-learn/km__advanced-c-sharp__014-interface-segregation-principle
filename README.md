@@ -9,7 +9,7 @@
 In `HomeEnergyApi/Models/IReadRepository.cs`
 - Create a public interface `IReadRepository<TId, T>`
     - Create a method `List<T> FindAll()`
-    - Create a method `T FindById(TId id);`
+    - Create a method `T FindById(TId id)`
 
 In `HomeEnergyApi/Models/IWriteRepository.cs`
 - Create a public interface `IWriteRepository<TId, T>`
